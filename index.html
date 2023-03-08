@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Mi Curriculum Vitae</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!-- Tipografia  -->
+	<!--<link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">-->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+		integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+		integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+		crossorigin="anonymous"></script>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<header>
+	<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		<div class="container-fluid">
+		  <a class="navbar-brand" href="#">
+			<h5>Curriculum Vitae</h5>
+		  </a>
+		  <div class="collapse navbar-collapse" id="navbarNav">
+			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+			  <li class="nav-item">
+				<a class="nav-link" href="#informacion-personal">
+				  <h5>Información personal</h5>
+				</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#experiencia">
+				  <h5>Experiencia</h5>
+				</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href=""></a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="#habilidades">
+				  <h5>Habilidades</h5>
+				</a>
+			  </li>
+			</ul>
+			<!-- Iconos de redes sociales -->
+			<div class="d-flex">
+				<a href="#facebook" class="me-3" id="facebook-link">
+				  <i class="fab fa-facebook fa-lg text-color"></i>
+				</a>
+				<a href="#whatsapp" class="me-3" id="whatsapp-link">
+				  <i class="fab fa-whatsapp fa-lg text-color"></i>
+				</a>
+				<a href="#instagram" class="me-3" id="instagram-link">
+				  <i class="fab fa-instagram fa-lg text-color"></i>
+				</a>
+				<script>
+				const facebookLink = document.getElementById("facebook-link");
+const whatsappLink = document.getElementById("whatsapp-link");
+const instagramLink = document.getElementById("instagram-link");
+
+facebookLink.addEventListener("click", function() {
+  document.getElementById("facebook").classList.add("highlight");
+  document.getElementById("whatsapp").classList.remove("highlight");
+  document.getElementById("instagram").classList.remove("highlight");
+});
+
+whatsappLink.addEventListener("click", function() {
+  document.getElementById("facebook").classList.remove("highlight");
+  document.getElementById("whatsapp").classList.add("highlight");
+  document.getElementById("instagram").classList.remove("highlight");
+});
+
+instagramLink.addEventListener("click", function() {
+  document.getElementById("facebook").classList.remove("highlight");
+  document.getElementById("whatsapp").classList.remove("highlight");
+  document.getElementById("instagram").classList.add("highlight");
+});
+
+
+				</script>
+			  </div>
+		  </div>
+		</div>
+	  </nav>
+
+	<body>
+		<!--Informacion Personal-->
+		<div class="foto-perfil">
+			<img src="https://randomuser.me/api/portraits/men/24.jpg" width="15%" height="auto" alt="Foto de perfil">
+		</div>
+		<h1 id="cost">Jorge Castillo</h1>
+		<br>
+		<h2 id="cost">Arquitecto</h2>
+</header>
+<main>
+	<br>
+	<section id="informacion-personal">
+		<h3>Información personal</h3>
+		<ul>
+			<p><strong>Nombre completo:</strong> Jorge Raul Castillo</li>
+			<p><strong>Fecha de nacimiento:</strong> 10/5/1974</li>
+			<p><strong>Correo electrónico:</strong> jr.castillo@gmail.com</li>
+			<p><strong id="whatsapp">Whatsapp:</strong> +54-11-4256-7390</li>
+			<p><strong id="facebook">Facebook:</strong> Jorge Raul Castillo </li>
+			<p><strong id="instagram">Instagram:</strong> Jorge_Raul_Castillo</li>
+	
+			<p><strong>Dirección:</strong> Francia 438 - Munro - AMBA</li>
+		</ul>
+		<br>
+	</section>
+	<section id="experiencia">
+		<h3>Experiencia</h3>
+		<ul>
+			<p>
+			<h4>Alchemax</h4>
+			<p><strong>Cargo:</strong> Director de Proyectos</p>
+			<p><strong>Fecha de inicio:</strong> Junio 2008</p>
+			<p><strong>Fecha de finalización:</strong> Enero 2023</p>
+			<p><strong>Descripción:</strong> <br> Como director de proyectos de diseño, mi tarea era supervisar los
+				plazos,<br> el presupuesto y los recursos de los diferentes proyectos, comunicarme con los clientes <br>
+				para asegurar su satisfacción y resolver cualquier problema. Entregar proyectos<br> a tiempo y
+				dentro del presupuesto, mejorando la calidad y eficiencia del equipo, <br> implementado procesos y
+				herramientas para mejorar la gestión e identificar oportunidades <br>de crecimiento y
+				diversificación en el mercado, lo que ha permitido <br> aumentar los ingresos de la empresa.
+			</p>
+			</p>
+			<br>
+			<p>
+			<h4>Alpha Construcciones </h4>
+			<p><strong>Cargo:</strong> Jefe de Cuadrilla</p>
+			<p><strong>Fecha de inicio:</strong> Abril de 1996</p>
+			<p><strong>Fecha de finalización:</strong> Junio de 2008</p>
+			<p><strong>Descripción:</strong><br> Supervisor responsable de liderar y gestionar un equipo
+				en el sitio de trabajo. <br> garantizar que los proyectos de construcción se completen de
+				manera eficiente y efectiva</p>
+			</li>
+		</ul>
+		<br>
+	</section>
+	<section id="habilidades">
+		<h3>Habilidades</h3>
+		<ul>
+			<p><i class="fas fa-check"></i> Liderazgo Estratégico,Adaptabilidad </li>
+			<p><i class="fas fa-check"></i> Comunicación Efectiva, Planificador</li>
+		</ul>
+	</section>
+</main>
+</body>
+<!-- Informacion de creador de pagina -->
+<footer>
+	<div class="container">
+		<hr>
+		<p>© 2023 Martin Ariel Lescano.</p>
+		
+		<ul class="list-inline">
+			<a href="#Contacto" id="contacto">Contacto</a>
+			<div id="detalles-contacto" style="display: none;">
+			<p>Desarrollado por Martin Ariel Lescano</p>	
+			  <p>Números de teléfono: +54 11 40442300 / +54 11 40442301</p>
+			  <p>Dirección: Calle Fantasia 1230</p>
+			  <p>Localidad: C.A.B.A</p>
+			  <p>Provincia: Buenos Aires</p>
+			  <p>Correo Electrónico: tec980@gmail.com</p>
+			  <script>
+				const botonContacto = document.getElementById("contacto");
+				const detallesContacto = document.getElementById("detalles-contacto");
+		  
+				botonContacto.addEventListener("click", function() {
+				  if (detallesContacto.style.display === "none") {
+					detallesContacto.style.display = "block";
+				  } else {
+					detallesContacto.style.display = "none";
+				  }
+				});
+			  </script>
+			</div>
+				
+		</ul>
+	</div>
+</footer>

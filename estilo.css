@@ -1,0 +1,12 @@
+body{
+    padding: 100px;
+    text-align: center;
+    background-color: lightgray;
+}
+#cost {
+    display: inline-block;
+}
+.highlight {
+    background-color: rgb(189, 235, 162);
+  }
+  
